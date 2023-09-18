@@ -1,0 +1,46 @@
+/* GameSelector.css */
+
+/* Default styles */
+.game-selector {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .game-button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    background-color: #007bff; /* Default button background color */
+    color: #fff; /* Default button text color */
+    border: none;
+    text-decoration: none;
+  }
+  
+  .game-button:hover {
+    background-color: #0056b3; /* Default button hover background color */
+  }
+  
+  /* Dark theme styles */
+  .dark-theme {
+    background-color: #1e1e1e;
+    color: #fff;
+  }
+  
+  .dark-theme .game-button {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .dark-theme .game-button:hover {
+    background-color: #555;
+  }
+  
+  .dark-theme a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .dark-theme a:hover {
+    text-decoration: underline;
+  }
+  

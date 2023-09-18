@@ -1,0 +1,77 @@
+/* App.css or a separate CSS file */
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+  }
+  
+  input[type="text"] {
+    width: 30px;
+    font-size: 1.2rem;
+    padding: 5px;
+    margin: 0 5px;
+    text-align: center;
+    background-color: #333;
+    color: #ffffff;
+    border: 2px solid #555;
+  }
+  
+  button {
+    font-size: 1.2rem;
+    background-color: #007acc;
+    color: #ffffff;
+    border: none;
+    padding: 8px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #005fa3;
+  }
+  
+  p.game-over {
+    font-size: 1.5rem;
+    color: #ff3535;
+    margin-top: 20px;
+  }
+  
+  /* Dark-themed Toastify styles */
+  .Toastify__toast-container {
+    width: 320px;
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+  }
+  
+  .Toastify__toast--error {
+    background-color: #ff3535;
+    color: #ffffff;
+  }
+  
+  /* Adjust Toastify close button style */
+  .Toastify__close-button {
+    color: #ffffff;
+    font-size: 1.2rem;
+  }
+  
+  .custom-toast-font {
+    font-family: "Didot", sans-serif;
+  }
